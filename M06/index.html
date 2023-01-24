@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- function navigate(page) {
+        location.href = page + '.html';
+    } -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+
+<body>
+    <div class="home" id="home-div">
+
+
+        <nav class="nav">
+            <ul class="ul" id="desktop-list" >
+                <li onclick="navigate('adivino')">ADIVINANZA</li>
+                <li onclick="navigate('tablero')">TABLERO</li>
+                <li onclick="navigate('cesar')">C.CESAR</li>
+                <li onclick="navigate('palindromo')">PALINDROMO</li>
+                <li onclick="navigate('validacion')">VALIDACION</li>
+                <li onclick="navigate('asteriscos')">ASTERISCOS</li>
+                <li onclick="navigate('fivonaci')">FIVONACI</li>
+                <li onclick="navigate('fivonaci')">NUMEROS</li>
+                
+            </ul>
+
+            <ul id="mobile-list">
+                <li onclick="navigate('index')">INICIO</li>
+            </ul>
+
+        </nav>
+        
+
+    </div>
+
+    <div class="cards ">
+        <div class="card-image" onclick="navigate('adivino')">
+            <img class="image" src="adivinar.png" alt="">
+
+
+            <div class="contenido">
+                <h3>ADIVINANZA</h3>
+                <p>Adivina un numero del 1 al 100.
+
+                </p>
+            </div>
+        </div>
+        <div class="card-image" onclick="navigate('tablero')">
+            <img class="image" src="tableroColor.png" alt="">
+
+
+            <div class="contenido">
+                <h3>TABLERO</h3>
+                <p>Prueba tus dotes de pintor.
+
+                </p>
+            </div>
+        </div>
+
+        <div class="card-image" onclick="navigate('cesar')">
+            <img class="image" src="cesar.jpg" alt="">
+
+
+            <div class="contenido">
+                <h3>C.CESAR</h3>
+                <p>Cifra cualquier texto.
+
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="card-image" onclick="navigate('palindromo')">
+            <img class="image" src="palindromo.jpg" alt="">
+
+            <div class="contenido">
+                <h3>PALINDROMO</h3>
+                <p>Detecta si tu frase es un palindromo.
+
+                </p>
+            </div>
+
+        </div>
+
+        <div class="card-image" onclick="navigate('validacion')">
+            <img class="image" src="contraseña.jpg" alt="">
+
+            <div class="contenido">
+                <h3>CONTRASEÑA</h3>
+                <p>Crea una contraseña segura.
+
+                </p>
+            </div>
+
+        </div>
+
+        <div class="card-image" onclick="navigate('asteriscos')">
+            <img class="image" src="Asteriscos.png" alt="">
+
+            <div class="contenido">
+                <h3>ASTERISCOS</h3>
+                <p>Genera asteriscos de forma inmediata.
+
+                </p>
+            </div>
+
+        </div>
+
+        <div class="card-image" onclick="navigate('fivonaci')">
+            <img class="image" src="images.jpg" alt="">
+
+            <div class="contenido">
+                <h3>FIBONACCI</h3>
+                <p>
+                    Descubre la secuencia fibonacci de un numero.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="card-image" onclick="navigate('primos')">
+            <img class="image" src="images (1).jpg" alt="">
+
+            <div class="contenido">
+                <h3>NUMEROS PRIMOS</h3>
+                <p>
+                   Calcula los numeros primos
+                </p>
+            </div>
+
+        </div>
+
+        
+
+  
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
